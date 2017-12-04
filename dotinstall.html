@@ -63,12 +63,41 @@
           </table>
         </div>
       </section>
+      <section class="py-5">
+        <h2 class="mb-5 text-center">How to use</h2>
+        <div class="container">
+          <ul class="nav nav-tabs">
+            <li class="nav-item" ><a href="#ios" data-toggle="tab" class="nav-link active">iOS</a></li>
+            <li class="nav-item" ><a href="#android" data-toggle="tab" class="nav-link">Android</a></li>
+          </ul>
+          <div class="tab-content py-4">
+            <div id="ios" class="tab-pane active">
+              <p> Hello iOS  Hello iOS  Hello iOS  Hello iOS  Hello iOS  Hello iOS  Hello iOS  Hello iOS  <span class="font-weight-bold text-info" data-toggle="tooltip" title="This is a awesome" data-placement="bottom"> Hello iOS </span>Hello iOS  Hello iOS  Hello iOS  Hello iOS  Hello iOS </p>
+            </div>
+            <div id="android" class="tab-pane">
+              <p> Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android  Android </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <section class="bg-light text-center py-5">
+      <a href="" class="btn btn-primary btn-lg">Get It Now!</a>
+    </section>
+    <footer class="text-center text-muted py-4">
+      Copyrigth YYYY app.com
+    </footer>
     <footer>
 
     </footer>
     <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="./node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+        'use strict';
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
